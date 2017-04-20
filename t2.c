@@ -71,7 +71,7 @@ k=search(s);
 if(k)
 {
 printf("enter the variable and value\n");
-scaternf("%s%d",&tb[k].v,&tb[k].l);
+scanf("%s%d",&tb[k].v,&tb[k].l);
 }
 else
 printf("the variable is not found\n");
